@@ -11,7 +11,9 @@ const Homepage = () => {
 
   return (
     <div className='bg-black min-h-screen'>
-      <Button onClick={() => onOpen()}>Open Modal</Button>
+      <div className='flex justify-center items-center h-full h-screen'>
+        <Button onClick={() => onOpen()}>Open Modal</Button>
+      </div>
 
       <Modal><Form /></Modal>
 
