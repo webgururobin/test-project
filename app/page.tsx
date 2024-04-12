@@ -11,7 +11,7 @@ const Homepage = () => {
 
   return (
     <div className='bg-black min-h-screen'>
-      <div className='flex justify-center items-center h-full h-screen'>
+      <div className='flex justify-center items-center h-screen'>
         <Button onClick={() => onOpen()}>Open Modal</Button>
       </div>
 
